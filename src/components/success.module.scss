@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h5, p {
+    margin: 3px;
+}
+article {
+    margin-top: 20px;
+}
+
+span {
+    text-decoration: underline;
+    font-style: bold;
+}
+
+h5, p, span {
+    color: black;
+}
+
+p,span {
+    font-size: 14px;
+}
