@@ -1,0 +1,33 @@
+.step3 {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+select {
+    border-color: chocolate;
+    color: chocolate;
+}
+
+.next, .prev {
+    margin-top: 15px;
+    padding: 5px;
+    color: #fff;
+    background-color: chocolate;
+    border: none;
+    box-shadow: none;
+}
+
+.prev {
+    width: 40%;
+    margin-top: 10px;
+}

@@ -3,7 +3,7 @@ import {createSlice} from '@reduxjs/toolkit'
 const rootSlice = createSlice({
     name: 'root',
     initialState: {
-        contacts: {email: "", password: "", passwordConfirm: ''},
+        contacts: {email: '', password: '', passwordConfirm: ''},
         address: {country: '', city: '', address:''},
         categories: {category1: 'art', category2: 'culture', category3: 'entertainment'},
         path: './'

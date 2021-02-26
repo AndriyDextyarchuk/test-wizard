@@ -11,8 +11,8 @@ export const Step1 = () => {
     const contacts = useSelector(state => state.contacts)
     const {register, handleSubmit, errors, watch} = useForm({defaulValues: contacts})
 
-    const onSubmit = (payload) => {
-        dispatch(postContacts(payload))
+    const onSubmit = (data) => {
+        dispatch(postContacts(data))
         history.push('/step2')
     }
 
